@@ -1,0 +1,62 @@
+.homepage {
+  width: 80%;
+  margin: 0 10%;
+
+  .btns-content {
+    margin-left: 5%;
+    margin-bottom: 20px;
+
+    button:focus {
+      outline: none !important;
+    }
+
+    button:first-of-type {
+      margin-right: 15px;
+    }
+  }
+
+  .field-content {
+    width: 80%;
+    margin: 0 auto 35px;
+
+    & > div {
+      margin-bottom: 0 !important;
+    }
+
+    &.radio-group {
+      margin-bottom: 0 !important;
+
+      .radio-group-content {
+        display: flex;
+        flex-direction: row;
+
+        label {
+          width: 45%;
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    &.checkbox-field {
+      margin-bottom: 0;
+    }
+
+    &.file-upload {
+      input:focus {
+        outline: none !important;
+      }
+    }
+
+    &.searchable-select {
+      & > div {
+        height: auto !important;
+      }
+    }
+
+  }
+
+  .validation-warn {
+    color: firebrick;
+  }
+
+}

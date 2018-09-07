@@ -7,25 +7,27 @@ import React from 'react';
 
 const AboutPage = () => (
     <main className="p-3 animated fadeIn">
-        <h3>React Redux Starter</h3>
+        <h3>I am <a href='https://docs.google.com/document/d/1RAGTloDWqPb5h05PBpXwMA3iG2eRPrzjoxW_UTydBec/'>Ma Zhang</a> - senior front-end developer</h3>
 
-        <p>A basic template that consists of the essential elements that are required to start building a Single Page Application using React, React Router, Redux, Bootstrap 4, Sass, and Webpack</p>
+        <p>I have 8 years of experience in web development and since 2013, I have been developing the web applications using React.js/Redux. </p>
 
-        The template consists of:
+        The summary of my front-end skills are following:
         <ul>
-            <li>a typcial project layout structure</li>
-            <li>a Babel setup and configuration</li>
-            <li>a Webpack setup and configuration</li>
-            <li>an ESLint setup and configuration</li>
-            <li>a SCSS setup and configuration</li>
-            <li>a sample React component to display list codes</li>
-            <li>a Redux setup to handle zip codes state</li>
-            <li>a React Router setup to show basic navigation</li>
+            <li>I am versed in HTML5, CSS3.</li>
+            <li>I am in the expert level of React.js/Redux.</li>
+            <li>I am in the intermediate level of Vue.js/Vuex/Vuetify.</li>
+            <li>I am in the intermediate level of AngularJS, Angular.js 2,4.</li>
+            <li>I am in the expert level of Bootstrap and jQuery.</li>
+            <li>I am familiar with the many npm libraries.</li>
+            <li>I am familiar with SCSS, LESS as CSS preprocessor.</li>
+            <li>I am familiar with Webpack, Babel.</li>
+            <li>I am familiar with ES6.</li>
         </ul>
 
-        Additionaly, the template provides a development and production webpack configuration.
+        My code is <b>smart</b>, <b>optimized</b> and <b>well-structured</b>.
 
-        The template also allows one to include specific plugins as part of build.
+        And I can work full-time on your project. <br/>
+        Thanks for reading :)
     </main>
 );
 
